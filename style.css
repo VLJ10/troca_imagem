@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --bg-imagem: attr(imagem);
+}
+body{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.imagem-fundo{
+    width: 900px;
+    height: 800px;
+    background-image: var(--bg-imagem);
+    background-size: cover;
+}
+.texto{
+    height: 80px;
+}
+.texto input{
+    font-size: 2rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.botoes button{
+    font-size: 1.5rem;
+}
