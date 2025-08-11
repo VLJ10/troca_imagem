@@ -35,3 +35,21 @@ body{
 .botoes button{
     font-size: 1.5rem;
 }
+.slide {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .slide.active {
+    opacity: 1;
+  }
+  .carrossel {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
